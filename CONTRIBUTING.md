@@ -10,13 +10,13 @@
 
 ### Workflow
 
-First, you need to create local `develop` branch tracking remote `develop` branch:
+First you need to create a local `develop` branch tracking the remote `develop` one:
 
 ```bash
 git checkout -b develop origin/develop
 ```
 
-Let's say you need to work on ticket #123.
+Now you need to work on ticket #123.
 
 ```bash
 # Create feature branch from up-to-date develop branch
@@ -27,7 +27,7 @@ git checkout -b loicm-123-explain_gitworkflow
 
 Work in this branch. Code, commit, code, commit as many time as needed.
 
-When you're work is ready, you want to prepare your branch for a Pull Request:
+When your work is ready, you want to prepare your branch for a Pull Request:
 
 ```bash
 # Be sure you're still up-to-date with remote develop branch
@@ -36,14 +36,14 @@ git pull --rebase origin develop
 # Reset your work so it's uncommited and staged
 git reset --soft develop
 
-# You can now commit your work in one commit with beautiful commit message (see below)
-- git ci -m "ref #123: super feature from 123"
+# You can now commit your work in one commit with a beautiful commit message (see below)
+git ci -m "ref #123: Add explanation of the git workflow"
 
 # Push your branch to remote so other developers can see it
-- git push origin loicm-123-explain_gitworkflow
+git push origin loicm-123-explain_gitworkflow
 ```
 
-Now ask for a review via a PR (whatever tool you use: github, gitlab, bitbucket…)
+Then ask for a review via a PR (whatever tool you use: github, gitlab, bitbucket…)
 
 When review is OK, it's time to merge your work on `develop` branch.
 
@@ -57,10 +57,10 @@ git pull --rebase origin master
 git merge loicm-123-explain_gitworkflow
 
 # And push to remote
-git push 
+git push
 ```
 
-How to get my work in production?
+Get your work in production (ie: on `master` branch)
 
 ```bash
 git checkout master
