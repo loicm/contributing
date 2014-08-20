@@ -1,5 +1,14 @@
 # How to contribute?
 
+## Goals
+
+- clean, easy to read/understand, linear history
+- work in feature-branches
+- use of Pull Request to get code review (if possible)
+- intermediary branch (`develop`) to let `master` clean in production
+- don't be dependant of an external tool like github or similar
+
+
 ## Git workflow
 
 ### Available branches
@@ -68,6 +77,7 @@ git pull
 git pull --rebase origin develop
 git push
 ```
+
 
 ## Commit messages
 
