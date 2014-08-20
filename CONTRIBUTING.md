@@ -1,5 +1,14 @@
 # How to contribute?
 
+## Git workflow
+
+Available branches:
+
+- `master`: the one in production
+- `develop`: the one used to create feature-branches
+- `<dev shortname>-<ticket number>-<very short description>`: feature branches, where all magic happens
+
+
 ## Commit messages
 
 Everything has to be written in english.
