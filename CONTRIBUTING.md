@@ -121,3 +121,14 @@ New 'password' controller dealing with the password recovery process
 Email content is configurable from BackOffice under "Config > Emails".
 Email is send in HTML format.
 ```
+
+## Useful links
+
+(Mostly in French)
+
+- [Configuration git](http://www.git-attitude.fr/2013/04/03/configuration-git/) (in French)
+- [Configuration du prompt](http://www.git-attitude.fr/2013/05/22/prompt-git-qui-dechire/) (in French)
+- [Git flow](http://danielkummer.github.io/git-flow-cheatsheet/)
+- [Bien utiliser git merge et rebase](http://www.git-attitude.fr/2014/05/04/bien-utiliser-git-merge-et-rebase/) (in French)
+- [Rebase](http://git-scm.com/book/fr/Les-branches-avec-Git-Rebaser)
+
