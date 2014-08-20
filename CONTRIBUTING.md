@@ -62,8 +62,8 @@ git checkout develop
 git pull
 git pull --rebase origin master
 
-# Then merge your feature-branch
-git merge loicm-123-explain_gitworkflow
+# Then merge your feature-branch or let the reviewer doing it (let the default merge commit message)
+git merge --no-ff loicm-123-explain_gitworkflow
 
 # And push to remote
 git push
