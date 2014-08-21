@@ -66,7 +66,7 @@ git pull --rebase origin master
 git merge --no-ff loicm-123-explain_gitworkflow
 
 # And push to remote
-git push --force origin develop
+git push origin develop
 ```
 
 Get your work in production (ie: on `master` branch)
@@ -75,7 +75,7 @@ Get your work in production (ie: on `master` branch)
 git checkout master
 git pull
 git pull --rebase origin develop
-git push --force origin master
+git push origin master
 ```
 
 
