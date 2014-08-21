@@ -102,23 +102,11 @@ Format should be:
 -  the ticket title or;
 -  a simple phrase as simple and explicit as possible
 
-It's sometimes a good idea to add more context. So `<Short message>` can be compound like this:
-
-`<Short message> = <Context> - <Message>`
-
-`<Context>` can be (non-exhaustive list):
-
-- Add feature
-- Improve UI
-- Documentation
-- Coding Standards
-
-Examples:
+We can add some context, for example:
 
 ```
 Improve UI - lorem ipsum…
 Add feature - lorem ipsum…
-Coding Standards - lorem ipsum…
 ```
 
 Your commit may not be related to a ticket: still keep good habits for your `<Short message>` and `<Long message>`.   
@@ -147,5 +135,6 @@ Email is send in HTML format.
 - [Configuration du prompt](http://www.git-attitude.fr/2013/05/22/prompt-git-qui-dechire/) (in French)
 - [Git flow](http://danielkummer.github.io/git-flow-cheatsheet/)
 - [Bien utiliser git merge et rebase](http://www.git-attitude.fr/2014/05/04/bien-utiliser-git-merge-et-rebase/) (in French)
+- [Getting solid at Git rebase vs. merge](https://medium.com/@porteneuve/getting-solid-at-git-rebase-vs-merge-4fa1a48c53aa)
 - [Rebase](http://git-scm.com/book/fr/Les-branches-avec-Git-Rebaser)
 
