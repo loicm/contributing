@@ -83,7 +83,7 @@ git push origin master
 
 Everything has to be written in english.
 
-Format must be:
+Format should be:
 
 ```
 <keyword> #<ticket number>: <Short message>
@@ -107,6 +107,10 @@ We can add some context, for example:
 Improve UI - lorem ipsum…
 Add feature - lorem ipsum…
 ```
+
+Your commit may not be related to a ticket: still keep good habits for your `<Short message>` and `<Long message>`.   
+It should be easy for the others to understand what your commit brings to the project.
+
 
 ### Example
 
