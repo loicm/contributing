@@ -42,8 +42,9 @@ When your work is ready, you want to prepare your branch for a Pull Request:
 # Be sure you're still up-to-date with remote develop branch
 git pull --rebase origin develop
 
-# Reset your work so it's uncommited and staged
-git reset --soft develop
+# Clean your history: never share something not easy to understand by others
+# It's time to reword some commit messages, to squad some commits, etc…
+git rebase -i develop
 
 # You can now commit your work in one commit with a beautiful commit message (see below)
 git ci -m "ref #123: Add explanation of the git workflow"
