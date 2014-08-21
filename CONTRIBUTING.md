@@ -102,11 +102,23 @@ Format should be:
 -  the ticket title or;
 -  a simple phrase as simple and explicit as possible
 
-We can add some context, for example:
+It's sometimes a good idea to add more context. So `<Short message>` can be compound like this:
+
+`<Short message> = <Context> - <Message>`
+
+`<Context>` can be (non-exhaustive list):
+
+- Add feature
+- Improve UI
+- Documentation
+- Coding Standards
+
+Examples:
 
 ```
 Improve UI - lorem ipsum…
 Add feature - lorem ipsum…
+Coding Standards - lorem ipsum…
 ```
 
 Your commit may not be related to a ticket: still keep good habits for your `<Short message>` and `<Long message>`.   
