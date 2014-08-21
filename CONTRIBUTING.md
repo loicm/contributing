@@ -43,7 +43,7 @@ When your work is ready, you want to prepare your branch for a Pull Request:
 git pull --rebase origin develop
 
 # Clean your history: never share something not easy to understand by others
-# It's time to reword some commit messages, to squash some commits, etc…
+# It's time to reword some commit messages, to squad some commits, etc…
 git rebase -i develop
 
 # You can now commit your work in one commit with a beautiful commit message (see below)
@@ -111,6 +111,8 @@ Add feature - lorem ipsum…
 
 Your commit may not be related to a ticket: still keep good habits for your `<Short message>` and `<Long message>`.   
 It should be easy for the others to understand what your commit brings to the project.
+
+When a commit is releated to coding standards, you may use `CS` as keyword.
 
 
 ### Example
