@@ -46,9 +46,6 @@ git pull --rebase origin develop
 # It's time to reword some commit messages, to squash some commits, etc…
 git rebase -i develop
 
-# You can now commit your work in one commit with a beautiful commit message (see below)
-git ci -m "ref #123: Add explanation of the git workflow"
-
 # Push your branch to remote so other developers can see it
 git push origin loicm-123-explain_gitworkflow
 ```
